@@ -26,7 +26,8 @@ export const DocPDF = ({data}) => (
   <Document>
     <Page size="A4" style={styles.page}>
         <View style={styles.section}>
-            <View style={styles.textContainer}>
+        <Image src="/rsul/icatu.jpg" style={styles.logo} />
+        <View style={styles.textContainer}>
                 <Text style={styles.subtitle}>Seguro de Vida em Grupo e Acidentes Pessoais</Text>
                 <Text style={styles.title}>PROPOSTA DE ADESÃO</Text>
             </View>

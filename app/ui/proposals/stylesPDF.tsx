@@ -9,6 +9,7 @@ const stylesPDF = StyleSheet.create({
     section: { display:'flex',flexDirection:'row', alignItems:'center', marginBottom: 0,  fontSize: 10, justifyContent: 'space-between'},
     field: { fontSize: 10, marginBottom: 5, display:'flex',flexDirection:'row', padding: 5, borderStyle: 'solid', borderWidth: 1, borderColor: '#000', borderTop: '0'  },
     image: {width: 100, height: 50, marginBottom: 10 },
+    logo: { width: 100, height: 50, marginBottom: 10 },
     textContainer: { flex: 1, padding: 5 , marginBottom: 0},
     squareIcon: { fontSize: 16, color: 'black', marginRight: 5 },
     squareBox: {
